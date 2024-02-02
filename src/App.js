@@ -1,23 +1,21 @@
 import logo from './logo.svg';
 import './App.css';
+import DataFetchingUseState from './components/DataFetchingUseState';
+import DataFetchingUseReducer from './components/DataFetchingUseReducer';
+import InputUseRef from './components/UseRef/InputUseRef';
+import DocTitleOne from './components/CustomHooks/DocTitleOne';
+import DocTitleTwo from './components/CustomHooks/DocTitleTwo';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      {/* <DataFetchingUseState/> */}
+      {/* <DataFetchingUseReducer/> */}
+
+      {/* <InputUseRef/> */}
+
+      <DocTitleOne/>
+      <DocTitleTwo/>
     </div>
   );
 }
